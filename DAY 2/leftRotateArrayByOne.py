@@ -8,3 +8,4 @@ class Solution:
         return arr
 sol=Solution()
 print(sol.rotateArray([1,2,3,4]))
+print(sol.rotateArray([1,2,3,4,5]))
