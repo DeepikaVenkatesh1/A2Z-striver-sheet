@@ -1,0 +1,18 @@
+class Solution:
+    def rotateByK(self,arr:list,k:int)->list:
+        n=len(arr)
+        k=k%n
+
+        def reverse(l,r):
+            while l<r:
+                arr[l],arr[r]=arr[r],arr[l]
+                l+=1
+                r-=1
+
+        reverse(0,k-1)
+        reverse(k,n-1)
+        reverse(0,n-1)
+
+        return arr
+sol=Solution()
+print(sol.rotateByK([1,2,3,4,5],2))
