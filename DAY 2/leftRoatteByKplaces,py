@@ -16,3 +16,4 @@ class Solution:
         return arr
 sol=Solution()
 print(sol.rotateByK([1,2,3,4,5],2))
+print(sol.rotateByK([1,2,3,4,5],3))
