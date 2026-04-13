@@ -7,5 +7,6 @@ class Solution:
         
 sol=Solution()
 print(sol.linearSearch([1,2,3,4,5],3))
+print(sol.linearSearch([1,9,3,4,5,7],9))
         
             
